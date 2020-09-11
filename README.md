@@ -413,10 +413,10 @@ acs2017_ny[1:10,1:7]
 
 
 
-`````
 5
 For Question 5 instead of using the S&P 500 we used the SPY index which is an Exchange Traded Fund that is based off the S&P 500 and fluctuates according to price changes that occur on the S&P . We looked at the opening and closing price for SPY from 1993 until 2006. Based on the data we believe that an investment for SPY in 1993 of roughly 50 dollars in Jan 1993 would have yielded an investor a 166 percent increase if they had sold in October 2006 for 133 dollars. Relating to the Hot Hand Fallacy, the idea that a person can determine their luck by previous successsful outcomes is not true. Looking at the month to month rate of returns, the price changes for this stock and the S&P fluctuated immensely. The Max value of this stock occured in April 2000 at a price of 150 after the stock started to decrease reaching around 85 dollars. It's important to note that throughout this time period the value of this investment would be in positive. If we were to graph the price values for SPY we would see an upward sloping curve throughout this time period  when looking at price. However if we compared the price data to the results of the   dice expierement where we are analyzing outcomes of rolls,  we would see a relatively flat line where most numbers from 1-6 would appear evenly.
 Please see below the data 
+
 "citation: citation("quantmod")
 To cite package ‘quantmod’ in publications use:
   Jeffrey A. Ryan and Joshua M. Ulrich (2020).
