@@ -424,9 +424,8 @@ To cite package ‘quantmod’ in publications use:
   Framework. http://www.quantmod.com
   https://github.com/joshuaulrich/quantmod."
   
-  
+  `````
 
-> View(add)
 > to.monthly(SPY)
           SPY.Open  SPY.High   SPY.Low SPY.Close  SPY.Volume SPY.Adjusted
 Jan 1993  43.96875  43.96875  43.75000  43.93750     1003200     26.18406
