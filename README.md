@@ -600,6 +600,8 @@ Oct 2006 133.53999 139.00000 132.64999 137.78999  1443344100    104.06167
 
 We also attached the Month to Month rate of return for the SPY ETF from January 1st 1993 until October 31st 2006
 
+`````
+
 > monthlyReturn(SPY)
            monthly.returns
 1993-01-29   -0.0007107321
