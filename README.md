@@ -423,7 +423,12 @@ To cite package ‘quantmod’ in publications use:
   quantmod: Quantitative Financial Modelling
   Framework. http://www.quantmod.com
   https://github.com/joshuaulrich/quantmod."
- SPY.Open  SPY.High   SPY.Low SPY.Close  SPY.Volume SPY.Adjusted
+  
+  
+  add <-monthlyReturn(SPY)
+> View(add)
+> to.monthly(SPY)
+          SPY.Open  SPY.High   SPY.Low SPY.Close  SPY.Volume SPY.Adjusted
 Jan 1993  43.96875  43.96875  43.75000  43.93750     1003200     26.18406
 Feb 1993  43.96875  45.12500  42.81250  44.40625     5417600     26.46340
 Mar 1993  44.56250  45.84375  44.21875  45.18750     3019200     27.05615
@@ -590,6 +595,8 @@ Jul 2006 127.43000 128.14000 122.39000 127.85000  1691301400     96.13197
 Aug 2006 127.34000 131.03999 126.28000 130.64000  1420345400     98.22980
 Sep 2006 131.14000 133.99000 129.35001 133.58000  1363687900    100.88213
 Oct 2006 133.53999 139.00000 132.64999 137.78999  1443344100    104.06167
+  
+ 
 `````
 
 We also attached the Month to Month rate of return for the SPY ETF from January 1st 1993 until October 31st 2006
