@@ -425,7 +425,7 @@ To cite package ‘quantmod’ in publications use:
   https://github.com/joshuaulrich/quantmod."
   
   
-  add <-monthlyReturn(SPY)
+
 > View(add)
 > to.monthly(SPY)
           SPY.Open  SPY.High   SPY.Low SPY.Close  SPY.Volume SPY.Adjusted
