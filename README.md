@@ -407,7 +407,7 @@ acs2017_ny[1:10,1:7]
 > 
 
 
-4. The average for women in the sample was 42.72 and the average age for men in the sample was 40.35. I found interesting among Hispanics, Hisp_PR has the highest education attainment of 0.0436. This is particularly interesting to me because I was curious why this group of people had a larger education attainment relative to other Hispanics within the region. 
+
 =======
 4. The average for women in the sample was 42.72 and the average age for men in the sample was 40.35.
 
