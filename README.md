@@ -773,6 +773,9 @@ We also attached the Month to Month rate of return for the SPY ETF from January 
 `````
 
 Please see attached the weekly returns for SPY in 2003
+```
+weeklyReturns(SPY,from "2003", to 2004")
+
 2003-01-03   4.543375e-02
 2003-01-10   1.871921e-02
 2003-01-17  -2.578975e-02
