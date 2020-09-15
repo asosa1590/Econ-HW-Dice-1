@@ -1,16 +1,18 @@
 # Econ-HW-Dice-1
+Author: Antonio Sosa ,Ahmed Aslam, Mirajul Fahim
+
 > set.seed (42)
 > throws <- 20
-> dice <- replicate (2,
+> dice <- replicate (1,
 +     sample(1:6, throws, replace= TRUE)
 + )
 > table(rowSum(dice))
-Error in rowSum(dice) : could not find function "rowSum"
-> table(rowSums(dice))
 
- 3  4  5  6  7  8  9 10 11 
- 3  1  3  6  2  1  1  2  1 
- view(dice)
+ 1  2  3  4  5  6 
+18 15 20 15 13 19 
+ 
+ ````
+ 2. 
  
 ACS Code 2017
 acs2017_ny[1:10,1:7]
@@ -409,13 +411,21 @@ acs2017_ny[1:10,1:7]
 
 
 =======
-4. The average for women in the sample was 42.72 and the average age for men in the sample was 40.35.
+4. 
+The average for women in the sample was 42.72 and the average age for men in the sample was 40.35. I found interesting within the data set was regarding the commute and location. Of the 190,000 people in the data set about 37% lived in NYC and yet 30% of the people in the total data set commuted by car. This was particularly interesting because if more people in the data set lived outside the city than I would expect transportation vai car to be higher. The median age was 45 and 47 for men and women, so I believe many people who answered  this census are possibly retired or close to retirement therefore most individuals within this data set are most likely immobile (live away from public transportation)  or prefer a closer commute relative to their home which is reflected by the 30 percent of car commute. 
 
-
+======
 
 5
-For Question 5 instead of using the S&P 500 we used the SPY index which is an Exchange Traded Fund that is based off the S&P 500 and fluctuates according to price changes that occur on the S&P . We looked at the opening and closing price for SPY from 1993 until 2006. Based on the data we believe that an investment for SPY in 1993 of roughly 50 dollars in Jan 1993 would have yielded an investor a 166 percent increase if they had sold in October 2006 for 133 dollars. Relating to the Hot Hand Fallacy, the idea that a person can determine their luck by previous successsful outcomes is not true. Looking at the month to month rate of returns, the price changes for this stock and the S&P fluctuated immensely. The Max value of this stock occured in April 2000 at a price of 150 after the stock started to decrease reaching around 85 dollars. It's important to note that throughout this time period the value of this investment would be in positive. If we were to graph the price values for SPY we would see an upward sloping curve throughout this time period  when looking at price. However if we compared the price data to the results of the   dice expierement where we are analyzing outcomes of rolls,  we would see a relatively flat line where most numbers from 1-6 would appear evenly.
+For Question 5 instead of using the S&P 500 we used the SPY index which is an Exchange Traded Fund that is based off the S&P 500 and fluctuates according to price changes that occur on the S&P . We looked at the opening and closing price for SPY from 1993 until 2006. Based on the data we believe that an investment for SPY in 1993 of roughly 50 dollars in Jan 1993 would have yielded an investor a 166 percent increase if they had sold in October 2006 for 133 dollars. The mean price for our period was 97.14.
+
+The average close price is relflected in the excel sheet. 
+
+Relating to the Hot Hand Fallacy, the idea that a person can determine their luck by previous successsful outcomes is not true. Looking at the month to month rate of returns, the price changes for this stock and the S&P fluctuated immensely. The Max value of this stock occured in April 2000 at a price of 150 after the stock started to decrease reaching around 85 dollars. It's important to note that throughout this time period the value of this investment would be in positive. If we were to graph the price values for SPY we would see an upward sloping curve throughout this time period  when looking at price. However if we compared the price data to the results of the   dice expierement where we are analyzing outcomes of rolls,  we would see a relatively flat line where most numbers from 1-6 would appear evenly depending on the number of rolls.
+
+````
 Please see below the data 
+````
 
 "citation: citation("quantmod")
 To cite package ‘quantmod’ in publications use:
