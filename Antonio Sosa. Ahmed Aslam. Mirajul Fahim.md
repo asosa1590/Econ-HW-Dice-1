@@ -12,6 +12,23 @@ Author: Antonio Sosa ,Ahmed Aslam, Mirajul Fahim
 18 15 20 15 13 19 
  
  ````
+ The only way to roll a 6 more or less often would be to manipulate the dice to force a roll of a specific side. In order to know what is "more often", would pertain to rolling different sides of the dice with different probabilities. 
+
+Fair Roll
+
+Roll_Die = function(n) sample(1:6, n, rep = T)
+
+>Roll_Die(20)
+
+
+Adjusted Roll
+
+>Roll_Die = function(n) sample(1:6, n, rep = T,prob = c(rep(1/7, 5), 2/7))
+
+>Roll_Die(20)
+ 
+ 
+ ````
  2. 
  
 ACS Code 2017
