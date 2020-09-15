@@ -454,6 +454,20 @@ To cite package ‘quantmod’ in publications use:
   https://github.com/joshuaulrich/quantmod."
   
 `````
+summary(SPY$SPY.Close)
+     Index              SPY.Close     
+ Min.   :1993-01-29   Min.   : 43.41  
+ 1st Qu.:1999-12-16   1st Qu.: 99.19  
+ Median :2005-11-14   Median :107.69  
+ Mean   :2003-11-16   Mean   :111.30  
+ 3rd Qu.:2005-10-13   3rd Qu.:123.82  
+ Max.   :2006-09-09   Max.   :157.70  
+
+``````
+ mean((SPY$SPY.Close)
++ )
+[1] 110.2993
+
 ````
 > to.monthly(SPY)
           SPY.Open  SPY.High   SPY.Low SPY.Close  SPY.Volume SPY.Adjusted
