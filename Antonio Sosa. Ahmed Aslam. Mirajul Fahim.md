@@ -1,6 +1,8 @@
 # Econ-HW-Dice-1
 Author: Antonio Sosa ,Ahmed Aslam, Mirajul Fahim
 
+3.
+
 > set.seed (42)
 > throws <- 20
 > dice <- replicate (1,
@@ -28,8 +30,8 @@ Adjusted Roll
 >Roll_Die(20)
  
  
- ````
- 2. 
+ 4.
+ ```` 
  
 ACS Code 2017
 acs2017_ny[1:10,1:7]
