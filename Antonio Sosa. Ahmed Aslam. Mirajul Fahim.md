@@ -434,8 +434,8 @@ To cite package ‘quantmod’ in publications use:
   Framework. http://www.quantmod.com
   https://github.com/joshuaulrich/quantmod."
   
-  `````
-
+`````
+````
 > to.monthly(SPY)
           SPY.Open  SPY.High   SPY.Low SPY.Close  SPY.Volume SPY.Adjusted
 Jan 1993  43.96875  43.96875  43.75000  43.93750     1003200     26.18406
@@ -838,3 +838,4 @@ Please see attached the weekly returns for SPY in 2003
 2003-12-12   1.207301e-02
 2003-12-19   7.027955e-03
 2003-12-26   7.346143e-03
+```
